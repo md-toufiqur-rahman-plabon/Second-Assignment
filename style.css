@@ -56,9 +56,6 @@ main{
   margin-left: 30px;
  }
 
- .details{
-
- }
  .press{background-color: red;
         border-radius: 5px;
         width: 150px;
@@ -69,27 +66,16 @@ main{
 
  }
 
-
-
-.header-part-2{
- 
-
-}
 .header-part-2 img{
   height: 500px;
   margin-right: 40px;
 }
 
-
-
 /* ****styling the middle part ****/
-
 .middle{
   display: flex;
   margin-top: 50px;
-  flex
   }
-
 .middle-part1{
   width: 212px;
   height: 212px;
@@ -109,9 +95,6 @@ main{
   font-weight: 700;
   background-color: red;
   color: black;
-
-
-
 }
 .part1details2{
   border-radius: 5px;
@@ -121,8 +104,6 @@ main{
   margin-left: 15px;
   font-size: 15px;
   font-weight: 700;
-
-
 }
 
 .part1details3{
@@ -148,7 +129,6 @@ main{
   border-color: black;
   
 }
-
 .part2details1{
   width: 170px;
   height: 300px;
@@ -158,7 +138,6 @@ main{
 .proper{
   width:100%;
 }
-
 .line{
   display: flex;
   padding: 5px;
@@ -167,6 +146,18 @@ main{
   margin-left: 10px;
 }
 
+.view-all button{
+  background-color: red;
+  color: antiquewhite;
+  margin-left: 250px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 15px;
+  width: 150px;
+  padding: 10px;
+  height: 50px;
+  border: none;
+}
 
 /* ****Styling for footer *****/
 
@@ -234,3 +225,130 @@ hr{
 
 }
 
+@media all and (min-width: 1025px ) and (max-width:1200px){
+
+  .view-all {
+    display: none;
+  }
+
+}
+@media all and (min-width: 769 ) and (max-width:1024px){
+
+  .view-all {
+    display: none;
+  }
+
+}
+
+
+
+@media all and (min-width: 481px ) and (max-width:768px){
+
+
+
+  main{
+    border-radius: 10px;
+    margin-left: 40px;
+    }
+
+    .top-part{
+      width: 700px;
+     
+  
+    }  
+    .header{
+      height: 500px;
+      display: flex;
+    }  
+  .heading{
+    font-size: 20px;
+  }
+  .details{
+    font-size:8px;
+  }
+  .press{
+    background-color: red;
+        border-radius: 5px;
+        width: 50px;
+        height: 50px;
+        color: antiquewhite;
+        font-size: 7px;
+        font-weight: 700;
+  }
+
+  .header-part-2 img{
+    height: 500px;
+   
+  }
+  .middle{
+    margin-top: 50px;
+    display: block;
+    }
+  .middle-part1{
+    display: flex;
+    text-decoration:none;
+    justify-content: center;
+    margin-left: 250px;
+
+  }
+
+  .middle-part2{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+    height: 1000px;
+    border-radius: 10px;
+    border-color: black;
+    
+  }
+
+  .part2details1{
+    width: 320px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2 px solid #979797;
+  }
+
+
+  .footer h1{
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 350px;
+    color: azure;
+    padding-top: 100px;
+  
+  }
+  .lastpart03 p{
+    color: aliceblue;
+    margin-left: 110px;
+    display: inline-flex;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    font-size: 6px;
+    font-weight: bold;
+    }
+  
+  hr{
+    color: 0.3px solid rgb(128, 128, 128);
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  
+  .footerimage {
+    align-items: center;
+    display: inline flex;
+    margin-left: 700px;
+    background-color: azure;
+    padding: 25px;
+  
+  }
+  .view-all{
+    display: block;
+    visibility: show;
+    margin-top: 50px;
+    margin-right: 200px;
+  }
+  
+
+}
