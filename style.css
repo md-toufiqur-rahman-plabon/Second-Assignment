@@ -195,12 +195,11 @@ hr{
   margin-left: 20px;
   display: grid;
   grid-template-columns: repeat(3 , 1fr);
-  padding-left: 40px;
+ 
 }
 .flag1{
-  width: 160px;
   height: 300px;
-  grid-gap: 40px;
+  grid-gap: 10px;
   
 }
 .flag1 p{
@@ -261,7 +260,7 @@ hr{
       margin-right: 50px;
     }   
   .heading{
-    font-size: 50px;
+    font-size: 40px;
   }
   .details{
     font-size:8px;
@@ -277,7 +276,7 @@ hr{
   }
 
   .header-part-2 img{
-    width:100%;
+    width: 80%;
 
   }
   .middle{
@@ -358,13 +357,13 @@ hr{
   margin-left: 20px;
   display: grid;
   grid-template-columns: repeat(2 , 1fr);
-  padding-left: 80px;
+  
 }
 .flag1{
   margin-top: 20px;
-  width: 300px;
+  width: 200px;
   height: 300px;
-  grid-gap: 40px;
+  grid-gap: 20px;
   
 }
 .flag1 p{
