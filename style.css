@@ -195,6 +195,8 @@ hr{
   margin-left: 20px;
   display: grid;
   grid-template-columns: repeat(3 , 1fr);
+  grid-row-gap: 3px;
+  grid-column-gap: 3px;
  
 }
 .flag1{
@@ -206,7 +208,7 @@ hr{
   font-weight: 700;
 }
 .flag1 h6{
-  margin-left: 20px;
+  margin-left: 10px;
   display: block;
 }
 .flag-image{
@@ -357,14 +359,11 @@ hr{
   margin-left: 20px;
   display: grid;
   grid-template-columns: repeat(2 , 1fr);
-  
 }
 .flag1{
   margin-top: 20px;
-  width: 200px;
+  width: 150px;
   height: 300px;
-  grid-gap: 20px;
-  
 }
 .flag1 p{
   font-weight: 700;
